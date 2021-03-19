@@ -1,0 +1,105 @@
+.segunda_pagina
+{
+    background: $letrasOscuras2;
+    align-content: center;
+    .contenedor_titulo
+    {
+        h2
+        {
+            color: $fondoClaro;
+            font-size: 400%;
+            text-align: center;
+            padding-top: 64px;
+        }
+    }
+
+    .contenedor_informacion
+    {
+        p
+        {
+            color: $fondoClaro;
+            font-size: 150%;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-weight: 350;
+            padding-right: 25%;
+            padding-left: 25%;
+        }
+    }
+
+    .contenedor_tarjetas
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px;
+        .tarjeta
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            .imagen_tarjeta
+            {
+                // width: 128px;
+                // height: 128px;
+                width: 45%;
+                height: 0;
+                margin-top: 15%;
+                padding-bottom: 45%;
+                margin-bottom: -20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                img{ 
+                    width: 100%;
+                    position: absolute;
+                }
+                
+                .contenedor_img
+                {
+                    border-style: solid;
+                    border-color: $fondoClaro;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    border-width: 2px;
+                    width: 70%;
+                    height: 70%;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{ 
+                        width: 150%;
+                    }
+                }
+            }
+            .titulo_tarjeta
+            {
+                h3
+                {
+                    color: $fondoClaro;
+                    font-size: 170%;
+                    font-weight: 500;
+                    padding-bottom: 24px;
+                }
+            }
+            .descripcion_tarjeta
+            {
+                p
+                {
+                    color: $fondoClaro;
+                    font-size: 140%;
+                    font-weight: 300;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

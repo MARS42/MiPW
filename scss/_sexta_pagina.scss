@@ -1,0 +1,103 @@
+.sexta_pagina
+{
+    background: $letrasOscuras2;
+    align-content: center;
+    .contenedor_titulo
+    {
+        h2
+        {
+            color: $blanco;
+            font-size: 64px;
+            text-align: center;
+            padding-top: 64px;
+        }
+    }
+
+    .contenedor_informacion
+    {
+        p
+        {
+            color: $color4;
+            font-size: 32px;
+            text-align: center;
+            padding-top: 32px;
+            font-weight: 350;
+            padding-right: 25%;
+            padding-left: 25%;
+        }
+    }
+
+    .contenedor_tarjetas
+    {
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 32px;
+        .tarjeta
+        {
+            height: 100%;
+            width: 25%;
+            background: $fondoClaro;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            margin: 32px;
+            .imagen_tarjeta
+            {
+                padding-bottom: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img
+                {
+                    // width: 128px;
+                    // height: 128px;
+                    width: 50%;
+                }
+            }
+            .titulo_tarjeta
+            {
+                h3
+                {
+                    color: $letrasOscuras2;
+                    font-size: 200%;
+                    font-weight: 500;
+                    padding-bottom: 24px;
+                    text-align: center;
+                }
+            }
+            .descripcion_tarjeta
+            {
+                p
+                {
+                    color: $letrasOscuras2;
+                    font-size: 150%;
+                    font-weight: 300;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    text-align: center;
+                }
+            }
+            .p2
+            {
+                width: 80%;
+                margin-top: 48px;
+                color: $fondoClaro;
+                font-size: 150%;
+                font-weight: 300;
+                padding-left: 5%;
+                padding-right: 5%;
+                background: $letrasOscuras2;
+                padding: 10px;
+                border-radius: 5px;
+                text-align: center;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+    }
+}

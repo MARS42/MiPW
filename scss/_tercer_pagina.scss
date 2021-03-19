@@ -1,0 +1,96 @@
+.tercer_pagina{
+    background: $fondoClaro;
+    background: transparent;
+    align-content: center;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 100%;
+        position: absolute;
+        filter: opacity(0.1);
+    }
+    .contenedor_titulo
+    {
+        //position: absolute;
+        h2
+        {
+            color: $letrasOscuras2;
+            font-size: 400%;
+            text-align: center;
+            padding-top: 64px;
+        }
+    }
+
+    .contenedor_informacion
+    {
+        //position: absolute;
+        p
+        {
+            color: $letrasOscuras2;
+            font-size: 200%;
+            text-align: center;
+            padding-top: 32px;
+            font-weight: 250;
+            padding-right: 25%;
+            padding-left: 25%;
+        }
+    }
+
+    .contenedor_tarjetas
+    {
+        //position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 32px;
+        .circulo
+        {
+            width: 20%;
+            height: 0%;
+            padding-bottom: 20%;
+            margin: -10% 0% 0% 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            //padding: 10px;
+            border-style: solid;
+            border-color: $letrasOscuras2;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            //margin: 64px;
+            .info
+            {
+                padding-top: 90%;
+                .titulo_circulo
+                {
+                    h3
+                    {
+                        color: $letrasOscuras2;
+                        text-align: center;
+                        font-size: 32px;
+                        font-weight: 500;
+                        padding-bottom: 10px;
+                    }
+                }
+                .descripcion_circulo
+                {
+                    p
+                    {
+                        color: $letrasOscuras2;
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: 350;
+                        padding-left: 5%;
+                        padding-right: 5%;
+                    }
+                }
+            }
+        }
+    }
+}

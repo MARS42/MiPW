@@ -1,0 +1,84 @@
+.septima_pagina
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    background: $fondoClaro;
+    position: relative;
+
+    img
+    {
+        position: absolute;
+        width: 100%;
+        filter: opacity(0.1);
+    }
+
+    .contenedor_bimg
+    {  
+        width: 20%;
+        height: 0%;
+        margin-top: 10%;
+        padding-bottom: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        img{ 
+            width: 100%;
+            position: absolute;
+            filter: opacity(1);
+        }
+        
+        .contenedor_img
+        {
+            border-style: solid;
+            border-color: $mandala;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-width: 2px;
+            width: 70%;
+            height: 70%;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{ 
+                width: 450%;
+                transform: translateY(15%) translateX(-2%);
+                filter: opacity(1);
+            }
+        }
+        
+    }
+
+    .contenedor_info
+    {
+        width: 50%;
+        margin-top: -10%;
+        position: relative;
+        //margin-top: 48px;
+        p
+        {
+            text-align: center;
+            color: $letrasOscuras2;
+            font-size: 32px;
+            font-weight: 300;
+        }
+    }
+
+    .contenedor_tit
+    {
+        width: 50%;
+        margin-top: 48px;
+        position: relative;
+        h3
+        {
+            text-align: center;
+            color: $letrasOscuras2;
+            font-size: 64px;
+            font-weight: 500;
+        }
+    }
+}

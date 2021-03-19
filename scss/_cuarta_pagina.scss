@@ -1,0 +1,52 @@
+.cuarta_pagina
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $letrasOscuras2;
+    .contenedor_izq
+    {
+        width: 50%;
+        padding-left: 32px;
+        padding-right: 64px;
+        h3
+        {
+            color: $fondoClaro;
+            width: 50%;
+            font-size: 400%;
+            margin-bottom: 10px;
+        }
+        p
+        {
+            color: $color4;
+            font-size: 150%;
+            font-weight: 300;
+        }
+        .p2
+        {
+            width: 256px;
+            background: $fondoClaro;
+            color: $letrasOscuras2;
+            font-size: 150%;
+            font-weight: 700;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 64px;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    }
+
+    .contenedor_der
+    {
+        width: 50%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        img
+        {
+            //height: 100%;
+            width: 100%;
+            transform: translateY(-10%);
+        }
+    }
+}
